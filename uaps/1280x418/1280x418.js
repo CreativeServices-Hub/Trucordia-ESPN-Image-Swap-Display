@@ -2,7 +2,9 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [];
+lib.ssMetadata = [
+		{name:"1280x418_atlas_1", frames: [[0,0,1280,418],[1282,0,1280,418],[2564,0,1280,418],[0,420,1280,418],[1282,420,1280,418],[2564,420,1280,418],[0,840,1280,418],[1282,840,1280,418],[2564,840,1280,418],[0,1260,1280,418],[1282,1260,1280,418],[2564,1260,1280,418],[0,1680,1280,418],[1282,1680,1280,418],[2564,1680,1280,418],[0,2100,1280,418]]}
+];
 
 
 (lib.AnMovieClip = function(){
@@ -26,99 +28,115 @@ lib.ssMetadata = [];
 
 
 (lib._1280x418_1 = function() {
-	this.initialize(img._1280x418_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.ExpandedFrame = function() {
-	this.initialize(img.ExpandedFrame);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0000s_0000_Layer1 = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0000s_0000_Layer1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0000s_0001_ExploreMore = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0000s_0001_ExploreMore);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0000s_0002_Rectangle3 = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0000s_0002_Rectangle3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0002_VectorSmartObject = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0002_VectorSmartObject);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0003_VectorSmartObject = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0003_VectorSmartObject);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0004_Tailoredinsurancesolutionsforindividualsfamiliesandbu = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0004_Tailoredinsurancesolutionsforindividualsfamiliesandbu);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0005_WhatMatterstoYouMatterstoUs = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0005_WhatMatterstoYouMatterstoUs);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0006__Group_ = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0006__Group_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0007_VectorSmartObject = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0007_VectorSmartObject);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0008_VectorSmartObject = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0008_VectorSmartObject);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0009_VectorSmartObject = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0009_VectorSmartObject);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0010_Rectangle1 = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0010_Rectangle1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0011_VectorSmartObject = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0011_VectorSmartObject);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.TrucordiaHPTO_0000s_0012_VectorSmartObject = function() {
-	this.initialize(img.TrucordiaHPTO_0000s_0012_VectorSmartObject);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1280,418);
+	this.initialize(ss["1280x418_atlas_1"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.Symbol11 = function(mode,startPosition,loop,reversed) {
@@ -497,22 +515,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1280x418_1.png", id:"_1280x418_1"},
-		{src:"images/ExpandedFrame.png", id:"ExpandedFrame"},
-		{src:"images/TrucordiaHPTO_0000s_0000s_0000_Layer1.png", id:"TrucordiaHPTO_0000s_0000s_0000_Layer1"},
-		{src:"images/TrucordiaHPTO_0000s_0000s_0001_ExploreMore.png", id:"TrucordiaHPTO_0000s_0000s_0001_ExploreMore"},
-		{src:"images/TrucordiaHPTO_0000s_0000s_0002_Rectangle3.png", id:"TrucordiaHPTO_0000s_0000s_0002_Rectangle3"},
-		{src:"images/TrucordiaHPTO_0000s_0002_VectorSmartObject.png", id:"TrucordiaHPTO_0000s_0002_VectorSmartObject"},
-		{src:"images/TrucordiaHPTO_0000s_0003_VectorSmartObject.png", id:"TrucordiaHPTO_0000s_0003_VectorSmartObject"},
-		{src:"images/TrucordiaHPTO_0000s_0004_Tailoredinsurancesolutionsforindividualsfamiliesandbu.png", id:"TrucordiaHPTO_0000s_0004_Tailoredinsurancesolutionsforindividualsfamiliesandbu"},
-		{src:"images/TrucordiaHPTO_0000s_0005_WhatMatterstoYouMatterstoUs.png", id:"TrucordiaHPTO_0000s_0005_WhatMatterstoYouMatterstoUs"},
-		{src:"images/TrucordiaHPTO_0000s_0006__Group_.png", id:"TrucordiaHPTO_0000s_0006__Group_"},
-		{src:"images/TrucordiaHPTO_0000s_0007_VectorSmartObject.png", id:"TrucordiaHPTO_0000s_0007_VectorSmartObject"},
-		{src:"images/TrucordiaHPTO_0000s_0008_VectorSmartObject.png", id:"TrucordiaHPTO_0000s_0008_VectorSmartObject"},
-		{src:"images/TrucordiaHPTO_0000s_0009_VectorSmartObject.png", id:"TrucordiaHPTO_0000s_0009_VectorSmartObject"},
-		{src:"images/TrucordiaHPTO_0000s_0010_Rectangle1.png", id:"TrucordiaHPTO_0000s_0010_Rectangle1"},
-		{src:"images/TrucordiaHPTO_0000s_0011_VectorSmartObject.png", id:"TrucordiaHPTO_0000s_0011_VectorSmartObject"},
-		{src:"images/TrucordiaHPTO_0000s_0012_VectorSmartObject.png", id:"TrucordiaHPTO_0000s_0012_VectorSmartObject"}
+		{src:"images/1280x418_atlas_1.png", id:"1280x418_atlas_1"}
 	],
 	preloads: []
 };
